@@ -1,6 +1,6 @@
 Name:		exfat-utils
 Summary:	Utilities for exFAT file system
-Version:	1.2.8
+Version:	1.3.0
 Release:	1%{?dist}
 License:	GPLv2+
 Group:		System Environment/Base
@@ -42,6 +42,9 @@ cp -a label/exfatlabel.8 %{buildroot}/%{_mandir}/man8/exfatlabel.8
 %{_mandir}/man8/*
 
 %changelog
+
+* Mon Sep 17 2018 David Va <davidva AT tuta DOT io> 1.3.0-1
+- Updated to 1.3.0
 
 * Sun Feb 04 2018 David Va <davidva AT tutanota DOT com> - 1.2.8-1
 - Updated to 1.2.8
