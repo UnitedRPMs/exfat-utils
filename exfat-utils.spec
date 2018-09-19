@@ -6,6 +6,7 @@ License:	GPLv2+
 Group:		System Environment/Base
 Source0:	https://github.com/relan/exfat/releases/download/v%{version}/exfat-utils-%{version}.tar.gz
 URL:		https://github.com/relan/exfat
+BuildRequires:  gcc-c++
 
 %description
 A set of utilities for creating, checking, dumping and labeling exFAT file
